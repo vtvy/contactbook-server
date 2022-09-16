@@ -1,0 +1,23 @@
+GET http://localhost:3000/ HTTP/1.1
+content-type: application/json
+###
+GET http://localhost:3000/api/contacts HTTP/1.1
+content-type: application/json
+###
+POST http://localhost:3000/api/contacts HTTP/1.1
+content-type: application/json
+###
+DELETE  http://localhost:3000/api/contacts HTTP/1.1
+content-type: application/json
+###
+GET  http://localhost:3000/api/contacts/1 HTTP/1.1
+content-type: application/json
+###
+PUT  http://localhost:3000/api/contacts/1 HTTP/1.1
+content-type: application/json
+###
+DELETE  http://localhost:3000/api/contacts/1 HTTP/1.1
+content-type: application/json
+###
+GET  http://localhost:3000/api/contacts/favorite HTTP/1.1
+content-type: application/json
