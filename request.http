@@ -21,3 +21,6 @@ content-type: application/json
 ###
 GET  http://localhost:3000/api/contacts/favorite HTTP/1.1
 content-type: application/json
+###
+GET  http://localhost:3000/test404 HTTP/1.1
+content-type: application/json
