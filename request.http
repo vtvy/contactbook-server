@@ -1,3 +1,87 @@
+// Lab 2
+###
+
+
+
+
+
+
+###
+// Find all contacts to test
+GET http://localhost:3000/api/contacts HTTP/1.1
+content-type: application/json
+
+// Delete all favorite contacts
+DELETE http://localhost:3000/api/contacts HTTP/1.1
+content-type: application/json
+
+###
+// Find all favorite contacts
+GET http://localhost:3000/api/contacts/favorite HTTP/1.1
+content-type: application/json
+
+###
+// Find a contact with id=8
+GET http://localhost:3000/api/contacts/8 HTTP/1.1
+content-type: application/json
+
+###
+// Delete a contact
+DELETE http://localhost:3000/api/contacts/8 HTTP/1.1
+content-type: application/json
+
+###
+// Update a contact
+PUT http://localhost:3000/api/contacts/6 HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Veo CT 100",
+    "favorite": "0"
+}
+
+###
+// Find contact with id=5
+GET http://localhost:3000/api/contacts/5 HTTP/1.1
+content-type: application/json
+
+###
+// Find all contacts
+GET http://localhost:3000/api/contacts HTTP/1.1
+content-type: application/json
+
+###
+// Find all contacts with name is vy
+GET http://localhost:3000/api/contacts?name=vy HTTP/1.1
+content-type: application/json
+
+###
+// Create a contact without name
+POST http://localhost:3000/api/contacts HTTP/1.1
+content-type: application/json
+
+{
+    "email": "vyb1910730@student.ctu.edu.vn",
+    "address": "Can Tho",
+    "phone": "0123456789",
+    "favorite": "0"
+}
+
+###
+// Create a contact
+POST http://localhost:3000/api/contacts HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Vo Trieu Vy",
+    "email": "vyb1910730@student.ctu.edu.vn",
+    "address": "Can Tho",
+    "phone": "0123456789",
+    "favorite": "1"
+}
+
+// Lab 1
+###
 GET http://localhost:3000/ HTTP/1.1
 content-type: application/json
 ###

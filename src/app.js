@@ -21,7 +21,7 @@ app
 app.route("/api/contacts/favorite").get(contactController.findAllFavorite);
 
 app
-  .route("/api/contacts/:id")
+  .route("/api/contacts/:id(\\d+)")
   .get(contactController.findOne)
   .put(contactController.update)
   .delete(contactController.delete);
