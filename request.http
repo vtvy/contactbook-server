@@ -1,12 +1,5 @@
 // Lab 2
 ###
-
-
-
-
-
-
-###
 // Find all contacts to test
 GET http://localhost:3000/api/contacts HTTP/1.1
 content-type: application/json
