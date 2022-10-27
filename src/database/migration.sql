@@ -1,4 +1,5 @@
 CREATE DATABASE ct313h_labs;
+USE ct313h_labs;
 CREATE TABLE `contacts` (
 `id` INT(10) UNSIGNED NOT NULL AUTO_INCREMENT,
 `name` VARCHAR(255) NOT NULL COLLATE 'utf8mb4_general_ci',
